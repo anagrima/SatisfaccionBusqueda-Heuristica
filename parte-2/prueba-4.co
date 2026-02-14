@@ -1,0 +1,35 @@
+c Corredor en línea hacia la derecha hasta el objetivo
+v 1 0 0
+v 2 1 0
+v 3 2 0
+v 4 3 0
+v 5 4 0
+v 6 5 0
+v 7 6 0
+v 8 7 0
+v 9 8 0
+v 10 9 0
+v 11 10 0
+v 12 11 0
+v 13 12 0
+v 14 13 0
+v 15 14 0
+v 30 15 0
+
+c Distractores "muy lejos" geométricamente del objetivo (arriba)
+v 16 0 50
+v 17 1 50
+v 18 2 50
+v 19 3 50
+v 20 4 50
+v 21 5 50
+v 22 6 50
+v 23 7 50
+v 24 8 50
+v 25 9 50
+
+c Nodos intermedios de distractores aún lejos
+v 26 2 60
+v 27 4 60
+v 28 6 60
+v 29 8 60

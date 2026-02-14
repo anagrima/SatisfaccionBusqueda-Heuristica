@@ -1,0 +1,8 @@
+c Camino largo vs atajo
+p sp 6 6
+a 1 2 1
+a 2 3 1
+a 3 4 1
+a 4 5 1
+a 5 6 1
+a 1 6 10

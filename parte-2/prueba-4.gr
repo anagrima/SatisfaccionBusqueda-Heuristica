@@ -1,0 +1,48 @@
+c Abanico distractor + corredor al objetivo
+p sp 30 43
+
+c Corredor principal 1 -> 2 -> ... -> 15 -> 30
+a 1 2 4
+a 2 3 4
+a 3 4 4
+a 4 5 4
+a 5 6 4
+a 6 7 4
+a 7 8 4
+a 8 9 4
+a 9 10 4
+a 10 11 4
+a 11 12 4
+a 12 13 4
+a 13 14 4
+a 14 15 4
+a 15 30 4
+
+c Abanico distractor: desde 1 a muchos nodos baratos
+a 1 16 1
+a 1 17 1
+a 1 18 1
+a 1 19 1
+a 1 20 1
+a 1 21 1
+a 1 22 1
+a 1 23 1
+a 1 24 1
+a 1 25 1
+
+c Cada distractor tiene una "cadena barata" que no lleva al objetivo
+a 16 26 1
+a 17 26 1
+a 18 26 1
+a 19 27 1
+a 20 27 1
+a 21 27 1
+a 22 28 1
+a 23 28 1
+a 24 29 1
+a 25 29 1
+
+c Enganches entre distractores para que Dijkstra explore más
+a 26 27 1
+a 27 28 1
+a 28 29 1
